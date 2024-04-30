@@ -1,7 +1,7 @@
 {
     "needsErrorInfo": false,
     "mobileBottomRow": 11,
-    "widgetName": "partnumberCopyCopy",
+    "widgetName": "agcalc",
     "displayName": "Text",
     "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
     "searchTags": [
@@ -20,21 +20,22 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 17.71875,
     "dynamicTriggerPathList": [],
-    "leftColumn": 2,
+    "leftColumn": 57,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "text"}
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "AG Scrap",
+    "text": "{{ag1.text+ag2.text+ag3.text}}",
     "key": "dsb0e9qngy",
     "isDeprecated": false,
-    "rightColumn": 8,
-    "textAlign": "RIGHT",
+    "rightColumn": 61,
+    "textAlign": "CENTER",
     "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "kn3hrqwlpy",
+    "widgetId": "6gi8dckmmv",
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",
@@ -53,7 +54,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 21,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 19,
+    "originalBottomRow": 18,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }
