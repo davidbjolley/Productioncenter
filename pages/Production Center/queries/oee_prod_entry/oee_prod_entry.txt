@@ -1,0 +1,1 @@
+SELECT * FROM oee LIMIT 10;
